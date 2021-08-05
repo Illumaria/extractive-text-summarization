@@ -1,0 +1,4 @@
+# Work Log
+
+`05.08.2021`:
+* Choose the model. The [MatchSum](https://github.com/maszhongming/MatchSum) model takes the second place in the [CNN / DM benchmark rating](https://paperswithcode.com/sota/extractive-document-summarization-on-cnn) on [Papers With Code](https://paperswithcode.com/) and has a very simple (in terms of file number) implementation. Other approaches like [Neural Extractive Text Summarization with Syntactic Compression](https://arxiv.org/pdf/1902.00863v2.pdf) on the first place or freshly released [Deep Differential Amplifier for Extractive Summarization](https://aclanthology.org/2021.acl-long.31.pdf) are also worth trying out but could require much more time to implement.
