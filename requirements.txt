@@ -1,0 +1,8 @@
+bert-extractive-summarizer==0.8.1
+Flask>=1.1.2,<2.0.0
+gunicorn==20.1.0
+spacy>=2.1.0,<3.0.0
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.9.0+cpu
+transformers==4.9.1
+neuralcoref==4.0
