@@ -25,3 +25,23 @@ Evaluate model:
 ```bash
 python src/train.py -task ext -mode validate -batch_size 2000 -test_batch_size 500 -bert_data_path bert_data -log_file logs/val_ext_bert_cnndm -model_path checkpoints -sep_optim true -use_interval true -visible_gpus 1 -max_pos 512 -max_length 200 -alpha 0.95 -min_length 50 -result_path logs/ext_bert_cnndm
 ```
+
+With local or virtual environment:
+
+```bash
+git clone https://github.com/Illumaria/extractive-text-summarization.git
+cd extractive-text-summarization/
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+FLASK_APP=app.py flask run --host=0.0.0.0 --port=5000
+```
+
+With Docker:
+
+```bash
+git clone https://github.com/Illumaria/extractive-text-summarization.git
+cd extractive-text-summarization/
+docker build -t ext_sum .
+docker run --rm -p <YOUR_PORT>:5000 ext_sum
+```
