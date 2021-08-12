@@ -41,4 +41,4 @@ docker run --rm -p <SOME_UNUSED_PORT>:5000 ext_sum
 
 ## Work Log
 
-The problem statement and commentaries can be found in a separate work log file.
+The problem statement and commentaries can be found in a separate [work log](https://github.com/Illumaria/extractive-text-summarization/blob/master/WORKLOG.md) file.
